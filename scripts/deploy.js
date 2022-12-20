@@ -28,7 +28,7 @@ async function main() {
 
     writeFileSync('.env','GOERLI_EIP_2612_CONTRACT=\"' + example.address + '\"\n',{flag:'a+'});
   } else {
-    console.log("Contract has already been deployed at: ", process.env.GOERLI_EIP_20_CONTRACT);
+    console.log("Contract has already been deployed at: ", process.env.GOERLI_EIP_2612_CONTRACT);
   }
 }
 
